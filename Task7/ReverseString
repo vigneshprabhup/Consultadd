@@ -1,0 +1,24 @@
+package Task7;
+import java.util.*;
+
+
+
+public class Reverse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Please Enter the String");
+		
+		String str= scan.nextLine();
+		
+		StringBuffer sb= new StringBuffer(str);
+		
+		System.out.println(sb.reverse());
+		
+
+	}
+
+}
